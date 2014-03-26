@@ -124,4 +124,12 @@ void CSqunGuardDlg::OnBnClickedBtnpack()
 	{
 		MessageBox("Failed!");
 	}
+	else if (m_Pro.Protect() ==0)
+	{
+		MessageBox("Pack Successful!");
+	}
+	else
+	{
+		MessageBox("Pack Failed!");
+	}
 }

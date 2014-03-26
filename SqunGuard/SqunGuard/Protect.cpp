@@ -60,16 +60,47 @@ int CProtect::ISPE()
 
 int CProtect::Protect()
 {
-	HANDLE hFile=CreateFile(m_FileName,\
-		GENERIC_WRITE|GENERIC_READ,\
-		NULL,\
-		NULL,\
-		OPEN_EXISTING,\
-		FILE_ATTRIBUTE_NORMAL,\
+	HANDLE hFile=CreateFile(m_FileName,
+		GENERIC_WRITE|GENERIC_READ,
+		NULL,
+		NULL,
+		OPEN_EXISTING,
+		FILE_ATTRIBUTE_NORMAL,
 		NULL);
 	if (hFile == INVALID_HANDLE_VALUE)
 	{
 		return 1;
 	}
-	HANDLE hMap = CreateFileMapping(hFile,NULL,PAGE_READWRITE
+	HANDLE hMap = CreateFileMapping(hFile,NULL,PAGE_READWRITE,NULL,NULL,NULL);
+	if (hMap==INVALID_HANDLE_VALUE)
+	{
+		CloseHandle(hFile);
+		return 2;
+	}
+	LPVOID lpBase=MapViewOfFile(hMap, FILE_MAP_WRITE,0,0,0);
+	if (lpBase==0)
+	{
+		CloseHandle(hFile);
+		CloseHandle(hMap);
+		return 3;
+	}
+	PIMAGE_DOS_HEADER pDosHeader = (PIMAGE_DOS_HEADER)lpBase;
+	PIMAGE_NT_HEADERS pNtHeaders = (PIMAGE_NT_HEADERS)((long)lpBase + pDosHeader->e_lfanew);
+	PIMAGE_SECTION_HEADER pSecHeader=(PIMAGE_SECTION_HEADER)((long)pNtHeaders +
+		sizeof(DWORD) +
+		sizeof(IMAGE_FILE_HEADER)+
+		(long)pNtHeaders->FileHeader.SizeOfOptionalHeader);
+
+	pSecHeader->Characteristics |=0x80000000;
+
+	DWORD dwCodeStart = pSecHeader->PointerToRawData + (DWORD)lpBase;
+	DWORD dwCodeSize = pSecHeader->SizeOfRawData;
+	for(unsigned i=0;i<dwCodeSize;i++)
+	{
+		*(BYTE*)(dwCodeStart+i) ^= 0x2B;
+	}
+	UnmapViewOfFile(lpBase);
+	CloseHandle(hFile);
+	CloseHandle(hMap);
+	return 0;
 }
