@@ -1,0 +1,533 @@
+﻿Build started 4/14/2014 5:14:39 PM.
+     1>Project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" on node 2 (Build target(s)).
+     1>Building with tools version "4.0".
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=Win32
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\Git\PackDesign\HitGuard\Debug\' != '' and !HasTrailingSlash('E:\Git\PackDesign\HitGuard\Debug\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "HitGuard.vcxproj".
+     1>Target "_PrepareForBuild" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "HitGuard.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "HitGuard.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('HitGuard.cpp;HitGuardDlg.cpp;Protect.cpp;stdafx.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "HitGuard.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "HitGuard.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "HitGuard.vcxproj".
+       Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+     1>Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "HitGuard.vcxproj".
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "HitGuard.vcxproj".
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "HitGuard.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareForBuild" depends on it):
+       Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "SetEnv"
+         PATH=D:\Program Files\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files\Windows Kits\8.0\bin\x86;;C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;D:\Program Files\Microsoft Visual Studio 11.0\Common7\Tools\bin;D:\Program Files\Microsoft Visual Studio 11.0\Common7\tools;D:\Program Files\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;D:\Program Files\Microsoft Visual Studio 11.0\;C:\Windows\SysWow64;;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files\TortoiseGit\bin;
+       Done executing task "SetEnv".
+       Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+       Task "SetEnv"
+         LIB=D:\Program Files\Microsoft Visual Studio 11.0\VC\lib;D:\Program Files\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files\Windows Kits\8.0\lib\win8\um\x86;;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=D:\Program Files\Microsoft Visual Studio 11.0\VC\atlmfc\lib;D:\Program Files\Microsoft Visual Studio 11.0\VC\lib
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=D:\Program Files\Microsoft Visual Studio 11.0\VC\include;D:\Program Files\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files\Windows Kits\8.0\Include\um;C:\Program Files\Windows Kits\8.0\Include\shared;C:\Program Files\Windows Kits\8.0\Include\winrt;;
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "HitGuard.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "GetResolvedWinMD" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "HitGuard.vcxproj".
+     1>Target "PlatformPrepareForBuild" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v100').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v90').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' != 'v90' and 'v110' != 'v100').
+     1>Done building target "PlatformPrepareForBuild" in project "HitGuard.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+     1>Target "PrepareForBuild" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'D:\Program Files\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'D:\Program Files\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and 'v110'=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('D:\Program Files\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files\Windows Kits\8.0\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "HitGuard.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('HitGuard.cpp;HitGuardDlg.cpp;Protect.cpp;stdafx.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveSDKReferences" depends on it):
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+     1>Done building target "GetInstalledSDKLocations" in project "HitGuard.vcxproj".
+     1>Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "HitGuard.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "HitGuard.vcxproj".
+     1>Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "HitGuard.vcxproj".
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "HitGuard.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "Debug\HitGuard.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "HitGuard.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "HitGuard.vcxproj".
+     1>Target "PreBuildEvent" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "HitGuard.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForMidl" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "HitGuard.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "HitGuard.vcxproj".
+     1>Target "AfterMidl" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "HitGuard.vcxproj".
+     1>Target "_Midl" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "HitGuard.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "HitGuard.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "HitGuard.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "HitGuard.vcxproj".
+     1>Target "BuildGenerateSources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "HitGuard.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "HitGuard.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "HitGuard.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForCl" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "_SelectedFiles" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "_SelectedFiles" in project "HitGuard.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "_SelectedFiles" skipped. Previously built successfully.
+     1>Target "SelectCustomBuild" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "SelectCustomBuild" in project "HitGuard.vcxproj".
+     1>Target "SelectClCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ClCompile" depends on it):
+     1>Done building target "SelectClCompile" in project "HitGuard.vcxproj".
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('HitGuard.cpp;HitGuardDlg.cpp;Protect.cpp;stdafx.cpp' != '' and 'false' == 'True').
+     1>Target "ClCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+       Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc110.pdb' != '' and !Exists(Debug\vc110.pdb)).
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('Use' == 'Create' and ''!='true' and '' == '').
+       Using "CL" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "CL"
+         Read Tracking Logs:
+         	Debug\cl.read.1.tlog
+         Outputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\STDAFX.CPP:
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.PCH
+         All outputs are up-to-date.
+       Done executing task "CL".
+       Task "CL"
+         Using cached input dependency table built from:
+         	E:\Git\PackDesign\HitGuard\HitGuard\Debug\cl.read.1.tlog
+         Outputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\PROTECT.CPP:
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ
+         HitGuard.cpp will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.H was modified at 4/14/2014 4:33:51 PM.
+         HitGuardDlg.cpp will be compiled as E:\Git\PackDesign\HitGuard\HitGuard\HitGuardDlg.cpp was modified at 4/14/2014 5:14:36 PM.
+         Protect.cpp will be compiled as it was not found in the tracking log.
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=660
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HitGuard.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HitGuard.cpp HitGuardDlg.cpp Protect.cpp
+         Tracking command:
+         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\PROTECT.CPP" /b MSBuildConsole_CancelEvente3a1836d0db84387bf3c9fb3e689bdb8  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HitGuard.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HitGuard.cpp HitGuardDlg.cpp Protect.cpp
+         Protect.cpp
+         HitGuardDlg.cpp
+         Generating Code...
+         Compiling...
+         HitGuard.cpp
+         Generating Code...
+       Done executing task "CL".
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('Create' != 'Create' and ''!='true' and '' == '').
+     1>Done building target "ClCompile" in project "HitGuard.vcxproj".
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('HitGuard.cpp;HitGuardDlg.cpp;Protect.cpp;stdafx.cpp' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "HitGuard.vcxproj".
+     1>Target "_ClCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "HitGuard.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "HitGuard.vcxproj".
+       Target "_SelectedFiles" skipped. Previously built successfully.
+       Target "SelectCustomBuild" skipped. Previously built successfully.
+     1>Target "SelectResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ResourceCompile" depends on it):
+     1>Done building target "SelectResourceCompile" in project "HitGuard.vcxproj".
+     1>Target "ResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
+       Using "RC" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RC"
+         Write Tracking Logs:
+         	Debug\rc.write.1.tlog
+         Read Tracking Logs:
+         	Debug\rc.read.1.tlog
+         Outputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC:
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES
+         HitGuard.rc will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC was modified at 4/14/2014 4:11:25 PM.
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /l"0x0409" /IDebug\ /nologo /fo"Debug\HitGuard.res" HitGuard.rc 
+         Tracking command:
+         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC /b MSBuildConsole_CancelEvent65cf082ce59946f2a280c22a72acf2d8  /c "C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe"  /D _DEBUG /l"0x0409" /IDebug\ /nologo /fo"Debug\HitGuard.res" HitGuard.rc 
+       Done executing task "RC".
+     1>Done building target "ResourceCompile" in project "HitGuard.vcxproj".
+     1>Target "AfterResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "HitGuard.vcxproj".
+     1>Target "_ResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "HitGuard.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "HitGuard.vcxproj".
+     1>Target "_BuildCompileAction" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "HitGuard.vcxproj".
+     1>Target "BuildCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "HitGuard.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "HitGuard.vcxproj".
+     1>Target "BeforeLink" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "HitGuard.vcxproj".
+     1>Target "ComputeRCOutputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "HitGuard.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "HitGuard.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "HitGuard.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "HitGuard.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+     1>Target "ComputeCLOutputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeCLOutputs" in project "HitGuard.vcxproj".
+     1>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "HitGuard.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "HitGuard.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+     1>Target "ComputeManifestInputsTargets" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "HitGuard.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.rc2'=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "HitGuard.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "HitGuard.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "HitGuard.vcxproj".
+     1>Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForLink" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "HitGuard.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe' != '' and 'E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe' != 'E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe' != '' and '.exe' != '.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe' != '' and 'HitGuard' != 'HitGuard').
+     1>Done building target "DoLinkOutputFilesMatch" in project "HitGuard.vcxproj".
+     1>Target "PreLinkEvent" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "HitGuard.vcxproj".
+     1>Target "ComputeLinkSwitches" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Link" depends on it):
+     1>Done building target "ComputeLinkSwitches" in project "HitGuard.vcxproj".
+     1>Target "Link" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Link"
+         Write Tracking Logs:
+         	Debug\link.write.1.tlog
+         	Debug\link.15056-cvtres.write.1.tlog
+         	Debug\link.15056-mt.write.1.tlog
+         	Debug\link.15056-rc.write.1.tlog
+         	Debug\link.15056.write.1.tlog
+         	Debug\link-cvtres.write.1.tlog
+         	Debug\link.15056-cvtres.write.1.tlog
+         	Debug\link-cvtres.write.1.tlog
+         	Debug\link-mt.write.1.tlog
+         	Debug\link-rc.write.1.tlog
+         Read Tracking Logs:
+         	Debug\link.read.1.tlog
+         	Debug\link.15056-cvtres.read.1.tlog
+         	Debug\link.15056-mt.read.1.tlog
+         	Debug\link.15056-rc.read.1.tlog
+         	Debug\link.15056.read.1.tlog
+         	Debug\link-cvtres.read.1.tlog
+         	Debug\link.15056-cvtres.read.1.tlog
+         	Debug\link-cvtres.read.1.tlog
+         	Debug\link-mt.read.1.tlog
+         	Debug\link-rc.read.1.tlog
+         No output for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ was found in the tracking log; source compilation required.
+         No dependencies for output E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ were found in the tracking log; source compilation required.
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=796
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.lib" /MACHINE:X86 Debug\HitGuard.res
+         Debug\HitGuard.obj
+         Debug\HitGuardDlg.obj
+         Debug\Protect.obj
+         Debug\stdafx.obj
+         Tracking command:
+         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ" /b MSBuildConsole_CancelEvent33d7d8d4611d4a37a695fd56e371271f  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.lib" /MACHINE:X86 Debug\HitGuard.res
+         Debug\HitGuard.obj
+         Debug\HitGuardDlg.obj
+         Debug\Protect.obj
+         Debug\stdafx.obj
+       Done executing task "Link".
+       Task "Message"
+         HitGuard.vcxproj -> E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe
+       Done executing task "Message".
+     1>Done building target "Link" in project "HitGuard.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "HitGuard.vcxproj".
+     1>Target "AfterLink" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "HitGuard.vcxproj".
+     1>Target "_Link" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Link" in project "HitGuard.vcxproj".
+     1>Target "_ALink" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_ALink" in project "HitGuard.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+     1>Done building target "_Manifest" in project "HitGuard.vcxproj".
+     1>Target "RegisterOutput" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+     1>Done building target "RegisterOutput" in project "HitGuard.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "HitGuard.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "HitGuard.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_XdcMake" in project "HitGuard.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "HitGuard.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "HitGuard.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_BscMake" in project "HitGuard.vcxproj".
+       Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+       Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "HitGuard.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "HitGuard.vcxproj".
+     1>Target "_Appverifier" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Appverifier" in project "HitGuard.vcxproj".
+     1>Target "_Deploy" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Deploy" in project "HitGuard.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "HitGuard.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "HitGuard.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "HitGuard.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "HitGuard.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "HitGuard.vcxproj".
+     1>Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "PrepareForRun" in project "HitGuard.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PostBuildEvent" in project "HitGuard.vcxproj".
+     1>Target "_BuildLinkAction" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BuildLinkAction" in project "HitGuard.vcxproj".
+     1>Target "BuildLink" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "HitGuard.vcxproj".
+     1>Target "AfterBuild" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "HitGuard.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "Build" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         Deleting file "Debug\HitGuard.unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "Debug\HitGuard.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "HitGuard.vcxproj".
+     1>Target "Build" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (entry point):
+     1>Done building target "Build" in project "HitGuard.vcxproj".
+     1>Done Building Project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.60
