@@ -9,6 +9,8 @@ public:
 	int Init(CString fileName);
 	int IsPe();
 	int Protect();
+	int AddSection(char* SectionName,DWORD SectionSize,DWORD SectionCharacteristics);
+	DWORD AlignData(DWORD dwSize, DWORD dwAlign);
 
 private:
 	HANDLE m_hFile;

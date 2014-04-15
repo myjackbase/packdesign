@@ -36,6 +36,9 @@
     <ClInclude Include="Protect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HitGuard.cpp">

@@ -1,4 +1,4 @@
-﻿Build started 4/14/2014 5:14:39 PM.
+﻿Build started 4/15/2014 2:26:05 PM.
      1>Project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "4.0".
      1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (entry point):
@@ -222,20 +222,19 @@
          	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ
          	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ
          	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ
-         HitGuard.cpp will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.H was modified at 4/14/2014 4:33:51 PM.
-         HitGuardDlg.cpp will be compiled as E:\Git\PackDesign\HitGuard\HitGuard\HitGuardDlg.cpp was modified at 4/14/2014 5:14:36 PM.
-         Protect.cpp will be compiled as it was not found in the tracking log.
+         HitGuard.cpp will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\SHELL.H was modified at 4/15/2014 2:26:04 PM.
+         HitGuardDlg.cpp will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\SHELL.H was modified at 4/15/2014 2:26:04 PM.
+         Protect.cpp will be compiled as E:\Git\PackDesign\HitGuard\HitGuard\Protect.cpp was modified at 4/15/2014 2:24:46 PM.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=660
+           VS_UNICODE_OUTPUT=464
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HitGuard.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HitGuard.cpp HitGuardDlg.cpp Protect.cpp
          Tracking command:
-         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\PROTECT.CPP" /b MSBuildConsole_CancelEvente3a1836d0db84387bf3c9fb3e689bdb8  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HitGuard.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HitGuard.cpp HitGuardDlg.cpp Protect.cpp
+         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARDDLG.CPP|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\PROTECT.CPP" /b MSBuildConsole_CancelEvent35b3d844a3f44becb3c25e948e01a841  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HitGuard.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HitGuard.cpp HitGuardDlg.cpp Protect.cpp
          Protect.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
          HitGuardDlg.cpp
-         Generating Code...
-         Compiling...
          HitGuard.cpp
-         Generating Code...
        Done executing task "CL".
        Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('Create' != 'Create' and ''!='true' and '' == '').
      1>Done building target "ClCompile" in project "HitGuard.vcxproj".
@@ -258,16 +257,13 @@
      1>Target "ResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
        Using "RC" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "RC"
-         Write Tracking Logs:
-         	Debug\rc.write.1.tlog
-         Read Tracking Logs:
-         	Debug\rc.read.1.tlog
+         Using cached output dependency table built from:
+         	E:\Git\PackDesign\HitGuard\HitGuard\Debug\rc.write.1.tlog
+         Using cached input dependency table built from:
+         	E:\Git\PackDesign\HitGuard\HitGuard\Debug\rc.read.1.tlog
          Outputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC:
          	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES
-         HitGuard.rc will be compiled as E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC was modified at 4/14/2014 4:11:25 PM.
-         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /l"0x0409" /IDebug\ /nologo /fo"Debug\HitGuard.res" HitGuard.rc 
-         Tracking command:
-         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\HITGUARD.RC /b MSBuildConsole_CancelEvent65cf082ce59946f2a280c22a72acf2d8  /c "C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe"  /D _DEBUG /l"0x0409" /IDebug\ /nologo /fo"Debug\HitGuard.res" HitGuard.rc 
+         All outputs are up-to-date.
        Done executing task "RC".
      1>Done building target "ResourceCompile" in project "HitGuard.vcxproj".
      1>Target "AfterResourceCompile" in file "C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "E:\Git\PackDesign\HitGuard\HitGuard\HitGuard.vcxproj" (target "_ResourceCompile" depends on it):
@@ -367,37 +363,74 @@
        Task "Link"
          Write Tracking Logs:
          	Debug\link.write.1.tlog
-         	Debug\link.15056-cvtres.write.1.tlog
-         	Debug\link.15056-mt.write.1.tlog
-         	Debug\link.15056-rc.write.1.tlog
-         	Debug\link.15056.write.1.tlog
          	Debug\link-cvtres.write.1.tlog
-         	Debug\link.15056-cvtres.write.1.tlog
          	Debug\link-cvtres.write.1.tlog
          	Debug\link-mt.write.1.tlog
          	Debug\link-rc.write.1.tlog
          Read Tracking Logs:
          	Debug\link.read.1.tlog
-         	Debug\link.15056-cvtres.read.1.tlog
-         	Debug\link.15056-mt.read.1.tlog
-         	Debug\link.15056-rc.read.1.tlog
-         	Debug\link.15056.read.1.tlog
          	Debug\link-cvtres.read.1.tlog
-         	Debug\link.15056-cvtres.read.1.tlog
          	Debug\link-cvtres.read.1.tlog
          	Debug\link-mt.read.1.tlog
          	Debug\link-rc.read.1.tlog
-         No output for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ was found in the tracking log; source compilation required.
-         No dependencies for output E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ were found in the tracking log; source compilation required.
+         Outputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ:
+         	E:\GIT\PACKDESIGN\HITGUARD\DEBUG\HITGUARD.ILK
+         	E:\GIT\PACKDESIGN\HITGUARD\DEBUG\HITGUARD.EXE
+         	E:\GIT\PACKDESIGN\HITGUARD\DEBUG\HITGUARD.PDB
+         Inputs for E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ:
+         	C:\WINDOWS\SYSTEM32\C_1252.NLS
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ
+         	E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\INCLUDE\MANIFEST\DPIAWARE.MANIFEST
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\ATLMFC\LIB\NAFXCWD.LIB
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\LIBCMTD.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\KERNEL32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\USER32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\GDI32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\MSIMG32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\COMDLG32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\WINSPOOL.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\ADVAPI32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\SHELL32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\COMCTL32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\SHLWAPI.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\UXTHEME.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\WINDOWSCODECS.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\UUID.LIB
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\ATLMFC\LIB\ATLSND.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\OLE32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\OLEAUT32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\OLEDLG.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\URLMON.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\GDIPLUS.LIB
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\COMSUPPWD.LIB
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\OLDNAMES.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\WS2_32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\MSWSOCK.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\OLEACC.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\PROPSYS.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\IMM32.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\WINMM.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\LIB\WIN8\UM\X86\MSXML6.LIB
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\BIN\X86\MT.EXE
+         	C:\PROGRAM FILES\WINDOWS KITS\8.0\BIN\X86\RC.EXE
+         	D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\VC\BIN\CVTRES.EXE
+         	C:\WINDOWS\SYSTEM32\RSAENH.DLL
+         Source compilation required: input E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ is newer than output E:\GIT\PACKDESIGN\HITGUARD\DEBUG\HITGUARD.PDB.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=796
+           VS_UNICODE_OUTPUT=680
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.lib" /MACHINE:X86 Debug\HitGuard.res
          Debug\HitGuard.obj
          Debug\HitGuardDlg.obj
          Debug\Protect.obj
          Debug\stdafx.obj
          Tracking command:
-         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ" /b MSBuildConsole_CancelEvent33d7d8d4611d4a37a695fd56e371271f  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.lib" /MACHINE:X86 Debug\HitGuard.res
+         C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i E:\Git\PackDesign\HitGuard\HitGuard\Debug /r "E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARD.RES|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\HITGUARDDLG.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\PROTECT.OBJ|E:\GIT\PACKDESIGN\HITGUARD\HITGUARD\DEBUG\STDAFX.OBJ" /b MSBuildConsole_CancelEventea1994e64a2941659a9afe597599bb46  /c "D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git\PackDesign\HitGuard\Debug\HitGuard.lib" /MACHINE:X86 Debug\HitGuard.res
          Debug\HitGuard.obj
          Debug\HitGuardDlg.obj
          Debug\Protect.obj
@@ -530,4 +563,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.60
+Time Elapsed 00:00:00.61
