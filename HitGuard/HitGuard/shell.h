@@ -1,4 +1,5 @@
 #pragma once
+
 #include "windows.h"
 #include "string.h"
 
@@ -74,9 +75,10 @@ __declspec(naked) void start()
 	__asm
 	{
 		jmp begin 
-		__emit 'H'
-		__emit 'i'
-		__emit 't'
+		__emit 'S'
+		__emit 'q'
+		__emit 'u'
+		__emit 'n'
 		__emit 'G'
 		__emit 'u' 
 		__emit 'a'
