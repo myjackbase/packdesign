@@ -1,9 +1,19 @@
+// Protect.h: interface for the CProtect class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_PROTECT_H__C6707A71_7A5F_43FC_BACF_93D6D69A165F__INCLUDED_)
+#define AFX_PROTECT_H__C6707A71_7A5F_43FC_BACF_93D6D69A165F__INCLUDED_
+
+#if _MSC_VER > 1000
 #pragma once
-class CProtect
+#endif // _MSC_VER > 1000
+
+class CProtect  
 {
 public:
-	CProtect(void);
-	~CProtect(void);
+	CProtect();
+	virtual ~CProtect();
 
 public:
 	int Init(CString fileName);
@@ -20,3 +30,5 @@ private:
 	PIMAGE_NT_HEADERS m_pNtHeader;
 	PIMAGE_SECTION_HEADER m_pSecHeader;
 };
+
+#endif // !defined(AFX_PROTECT_H__C6707A71_7A5F_43FC_BACF_93D6D69A165F__INCLUDED_)
