@@ -1,0 +1,24 @@
+﻿生成启动时间为 2014-04-20 星期日 19:47:11。
+     1>项目“F:\GitHub\OuterShell\OuterShell\OuterShell.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iaplib.lib /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt OuterShell.cpp
+         OuterShell.cpp
+     1>f:\github\outershell\outershell\outershell.h(86): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : 参见“strcat”的声明
+     1>f:\github\outershell\outershell\outershell.h(88): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : 参见“strcat”的声明
+     1>f:\github\outershell\outershell\protect.h(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\github\outershell\outershell\protect.h(60): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : 参见“strcat”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitHub\OuterShell\Debug\OuterShell.exe" /NOLOGO /LIBPATH:aplib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\GitHub\OuterShell\Debug\OuterShell.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitHub\OuterShell\Debug\OuterShell.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Debug\OuterShell.res
+         Debug\OuterShell.obj
+         aplib\aplib.lib
+         Debug\shell.obj
+         OuterShell.vcxproj -> F:\GitHub\OuterShell\Debug\OuterShell.exe
+     1>已完成生成项目“F:\GitHub\OuterShell\OuterShell\OuterShell.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.36
